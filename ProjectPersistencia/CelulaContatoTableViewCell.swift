@@ -8,11 +8,12 @@
 
 import UIKit
 
-class CelulaContatoTableViewCell: UITableViewCell {
+class CelulaContatoTableViewCell: UITableViewCell  {
 
     @IBOutlet weak var vrImage: UIImageView!
     @IBOutlet weak var vrNome: UILabel!
     @IBOutlet weak var vrPhone: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

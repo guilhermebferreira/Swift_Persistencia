@@ -7,10 +7,31 @@
 //
 
 import UIKit
+import CoreData
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITableViewDataSource {
+    
+    
+    
 
     @IBOutlet weak var vrTableView: UITableView!
+    
+    //Variavel do tipo computed property que retorna objeto do tipo contexto a partir da classe app delegate
+    var context:NSManagedObjectContext{
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        
+        return appDelegate.persistentContainer.viewContext
+    }
+    
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+
     
     
     override func viewDidLoad() {
