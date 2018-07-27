@@ -93,6 +93,21 @@ class ViewController: UIViewController, UITableViewDataSource {
     override func viewWillAppear(_ animated: Bool) {
         getContacts()
     }
+    
+    //apenas colocar esse metodo já tras a opção de DELETE quando vc deslizar em cima da celula
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
+        //deletando um registro da tabela
+        if editingStyle == .delete{
+            let contact = contactManager.fetchedObjects![indexPath.row]
+            context.delete(contact)
+            
+            do{
+                try context.save()
+                getContacts()
+            }catch{}
+        }
+    }
 
 
 }
