@@ -13,6 +13,8 @@
 		2080220C210B997C004B8C17 /* ProjectPersistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2080220A210B997C004B8C17 /* ProjectPersistencia.xcdatamodeld */; };
 		2080220E210B9999004B8C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2080220D210B9999004B8C17 /* Assets.xcassets */; };
 		20802211210B9999004B8C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2080220F210B9999004B8C17 /* LaunchScreen.storyboard */; };
+		2080221B210BA407004B8C17 /* NovoContato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080221A210BA407004B8C17 /* NovoContato.swift */; };
+		2080221D210BA55A004B8C17 /* CelulaContatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080221C210BA55A004B8C17 /* CelulaContatoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2080220D210B9999004B8C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20802210210B9999004B8C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20802212210B9999004B8C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2080221A210BA407004B8C17 /* NovoContato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoContato.swift; sourceTree = "<group>"; };
+		2080221C210BA55A004B8C17 /* CelulaContatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelulaContatoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		20802202210B997B004B8C17 /* ProjectPersistencia */ = {
 			isa = PBXGroup;
 			children = (
+				2080221A210BA407004B8C17 /* NovoContato.swift */,
 				20802203210B997B004B8C17 /* AppDelegate.swift */,
 				20802205210B997C004B8C17 /* ViewController.swift */,
 				20802207210B997C004B8C17 /* Main.storyboard */,
@@ -63,6 +68,7 @@
 				2080220F210B9999004B8C17 /* LaunchScreen.storyboard */,
 				20802212210B9999004B8C17 /* Info.plist */,
 				2080220A210B997C004B8C17 /* ProjectPersistencia.xcdatamodeld */,
+				2080221C210BA55A004B8C17 /* CelulaContatoTableViewCell.swift */,
 			);
 			path = ProjectPersistencia;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				20802206210B997C004B8C17 /* ViewController.swift in Sources */,
 				20802204210B997B004B8C17 /* AppDelegate.swift in Sources */,
+				2080221B210BA407004B8C17 /* NovoContato.swift in Sources */,
+				2080221D210BA55A004B8C17 /* CelulaContatoTableViewCell.swift in Sources */,
 				2080220C210B997C004B8C17 /* ProjectPersistencia.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
