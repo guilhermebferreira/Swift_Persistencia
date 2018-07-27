@@ -88,6 +88,11 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //atualiza a tela quando voltar de outras janelas
+    override func viewWillAppear(_ animated: Bool) {
+        getContacts()
+    }
 
 
 }
